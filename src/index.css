@@ -1,0 +1,70 @@
+body{
+    overflow-x:hidden ;
+    margin: 0;
+    padding: 0;
+   
+}
+h1{
+    text-align: center;
+    color: deeppink;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+button{
+    background-color: darkcyan;
+    color: black;
+}
+.products-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap:50px;
+    justify-content: center;
+    align-items: center;
+}
+.productContainer{
+    width: 200px;
+    height: 360px;
+    background-color: rgb(184, 174, 182);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.productContainer:hover{
+    border:1px solid aquamarine;
+}
+img{
+    margin: 20px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    height: 150px;
+    width: 150px;    
+}
+h5{
+    font-size: 15px;
+}
+.search-container{
+    margin-left:100px;
+    margin-right: 100px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.search-container input{
+    height: 30px;
+    width: 300px;
+    border-radius: 10px;
+}
+.search-container input:hover {
+    border: 1px solid aquamarine ;
+}
+#add{
+    background-color: rgb(255, 109, 5);
+    border: none;
+    margin-left: 5px;
+    margin-bottom: 0px;
+}
